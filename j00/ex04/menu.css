@@ -1,0 +1,27 @@
+ul {
+    list-style: none;
+    float: left;
+    margin: 10px 0 0 40px;
+}
+li {
+    display: none;
+    border: 2px solid grey;
+}
+a {
+    text-decoration: none;
+}
+.title {
+    background-color: #d6204d;
+    border-radius: 5px;
+    color: #363839;
+    padding: 5px;
+    display: block;
+}
+ul:hover .title {
+    background-color: #2a0342;
+    color: #ffffff;
+}
+ul:hover li{
+    background-color: #8717a8;
+    display: block;
+}
