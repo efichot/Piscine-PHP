@@ -2,183 +2,333 @@
 	"products" : [
 		{
 			"id": "gros chat",
+			"catégorie": "Adulte",
 			"name": "Halloween",
-			"price": 100 euros,
+			"price": 100 ,
 			"imgURL": "https://static.wamiz.fr/images/animaux/chats/medium/persan-2922.jpg",
-			"categories": [
+			"caractéristique": [
 				"Race : Persan",
-				"robe : blanche et yeux oranges"
+				"robe : blanche et yeux oranges",
+				"age : 4 ans"
 			]
 		}, {
 			"id": "Chaton",
+			"categories": "Chaton",
 			"name": "Pato",
-			"price": 100 euros,
+			"price": 120,
 			"imgURL": "https://i.skyrock.net/2797/79952797/pics/3027400928_1_3_lft4Ddav.jpg",
-			"categories": [
+			"caractéristique": [
 				"race : Siamois",
-				"robe : beige, marron au museau et pattes, Yeux : bleu"
+				"robe : beige, marron au museau et pattes, Yeux : bleu",
+				"age : 5 Mois"
 			]
 		}, {
 			"id": "Manga",
+			"categories": "Adulte",
 			"name": "Snoopy",
-			"price": 100 euros,
+			"price": 100,
 			"imgURL": "https://s-media-cache-ak0.pinimg.com/564x/42/1c/2e/421c2ee94f1c5ecc024bf23edfd76b5b.jpg",
-			"categories": [
+			"caractéristique": [
 				"race : Exotic Shorthair Snoopy",
-				"robe :blanche avec taches marron"
+				"robe :blanche avec taches marron",
+				"age : 8 ans"
 			]
 		}, {
 			"id": "Imposant",
+			"categories": "Adulte",
 			"name": "Praline",
-			"price": 100 euros,
+			"price": 100,
 			"imgURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Birmakatze_Seal-Point.jpg/220px-Birmakatze_Seal-Point.jpg",
-			"categories": [
+			"caractéristique": [
 				"race : Sacré de Birmanie",
-				"robe : blanche, marron et noir, Yeux : bleu"
+				"robe : blanche, marron et noir, Yeux : bleu",
+				"age : 6 ans"
 			]
 		}, {
 			"id": "Poil court",
+			"categories": "Adulte",
 			"name": "Marvin",
-			"price": 100 euros,
+			"price": 100 ,
 			"imgURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Female_European_shorthair_in_cat_show_Helsinki_2005-07-31.JPG/220px-Female_European_shorthair_in_cat_show_Helsinki_2005-07-31.JPG",
-			"categories": [
+			"caractéristique": [
 				"race : European Shorthair",
-				"robe : tigré noir, marron beige"
+				"robe : tigré noir, marron beige",
+				"age : 8 ans"
 			]
 		}, {
 			"id": "US",
+			"categories": "Adulte",
 			"name": "felix",
-			"price": 100 euros,
+			"price": 100 ,
 			"imgURL": "http://cda-rentaspace.com/sitebuilder/images/catsUSA15adultspage-477x387.jpg",
-			"categories": [
+			"caractéristique": [
 				"race : American Shorthair",
-				"robe : tigrée noire et grise"
+				"robe : tigrée noire et grise",
+				"age : 5 ans"
 			]
 		}, {
 			"id": "Lion",
+			"categories": "Adulte",
 			"name": "Pas chat",
-			"price": 100 euros,
+			"price": 100 ,
 			"imgURL": "http://www.sentiers-sauvages.fr/image/chats_elaenia.jpg",
-			"categories": [
+			"caractéristique": [
 				"race : Maine coon",
-				"robe ; grise, noire"
+				"robe ; grise, noire",
+				"age : 6 ans"
 			]
 		}, {
 			"id": "Lion",
+			"categories": "Adulte",
 			"name": "Gandalf the white",
-			"price": 100 euros,
+			"price": 100 ,
 			"imgURL": "http://coonecticat.com/mainecoon/gandalf.jpg",
-			"categories": [
+			"caractéristique": [
 				"race : maine coon",
-				"robe : blanche"
+				"robe : blanche",
+				"age : 2ans"
 			]
 		}, {
 			"id": "Le Félin",
+			"categories": "Adulte",
 			"name": "Tigrou",
-			"price": 100 euros,
+			"price": 100 ,
 			"imgURL": "https://image.jimcdn.com/app/cms/image/transf/none/path/s9afa6ac63f6b1e49/image/i7336324cf967202c/version/1406550670/image.jpg",
-			"categories": [
+			"caractéristique": [
 				"race : Bengal",
-				"robe : marron orangé tacheté de noir"
+				"robe : marron orangé tacheté de noir",
+				"age : 4 ans"
 			]
 		}, {
 			"id": "Goutiere",
+			"categories": "Adulte",
 			"name": "Black Panther",
-			"price": 100 euros,
+			"price": 100 ,
 			"imgURL": "https://static.wamiz.fr/images/animaux/chats/medium/goutti-re-2805.jpg",
-			"categories": [
+			"caractéristique": [
 				"race : Chat-De-Gouttiere",
-				"robe : noire et blanche"
+				"robe : noire et blanche",
+				"age : 3 ans"
 			]
 		}, {
 			"id": "Chaton",
+			"categories": "Chaton",
 			"name": "Filou",
-			"price": 100 euros,
+			"price": 120 ,
 			"imgURL": "http://petsitting.fr/wp-content/uploads/2014/05/chat-de-gouttiere.jpg",
 			"categories": [
 				"race : Chat-De-Gouttiere",
-				"robe : grise"
+				"robe : grise",
+				"age : 6 mois"
 			]
 		}, {
 			"id": "Maous Costaud",
+			"categories": "Adulte",
 			"name": "Gandalf Le gris",
-			"price": 100 euros,
+			"price": 100 ,
 			"imgURL": "http://www.lechatpacha.fr/wp-content/uploads/2016/03/british-shorthair-bleu.jpg",
-			"categories": [
+			"caractéristique": [
 				"race : British-Shorthair",
-				"robe : grise, yeux : jaune"
+				"robe : grise, yeux : jaune",
+				"age : 5 ans"
 			]
 			}, {
 				"id": "Maous Costaud",
+				"categories": "Adulte",
 				"name": "Ice Cream",
-				"price": 100 euros,
+				"price": 100 ,
 				"imgURL": "http://mondo.felis.free.fr/mon%20chat/british%20shorthair/british%20shorthair%20yeux%20vairon).jpg",
-				"categories": [
+				"caractéristique": [
 					"race : British-Shorthair",
-					"robe : blanche, Yeux : albinos (un gris, un jaune)"
+					"robe : blanche, Yeux : albinos (un gris, un jaune)",
+					"age : 5 ans"
 				]
 			}, {
 				"id": "Chaton nain",
+				"categories": "Chaton",
 				"name": "Milka",
-				"price": 100 euros,
+				"price": 120 ,
 				"imgURL": "https://s-media-cache-ak0.pinimg.com/564x/68/95/db/6895dbcc0e53b332b033ecae05d0f9d4.jpg",
-				"categories": [
+				"caractéristique": [
 					"race : Chaton Nain",
-					"robe : blanche et marron"
+					"robe : blanche et marron",
+					"age : 11 mois"
 				]
 			}, {
 				"id": "Moelleux",
+				"categories": "Adulte",
 				"name": "Calimero",
-				"price": 100 euros,
+				"price": 100 ,
 				"imgURL": "https://previews.123rf.com/images/tankist276/tankist2761107/tankist276110700068/10084730-le-moelleux-ray-gris-bel-chaton-race-scottish-pliure-sur-fond-brun-Banque-d'images.jpg",
-				"categories": [
+				"caractéristique": [
 					"race : Scottish Pliure",
-					"robe : blanche et grise"
+					"robe : blanche et grise",
+					"age : 7 ans"
 				]
 			}, {
 				"id": "Sphinx",
+				"categories": "Adulte",
 				"name": "Sphinxia",
-				"price": 100 euros,
+				"price": 100 ,
 				"imgURL": "https://s-media-cache-ak0.pinimg.com/564x/52/6e/48/526e487263a8e515ef231e57b3ecc370.jpg",
-				"categories": [
+				"caractéristique": [
 					"race : Abyssin",
-					"robe : marron orangée"
+					"robe : marron orangée",
+					"age : 9 ans"
 				 ]
 				}, {
 					"id": "Siamois Oriental",
+					"categories": "Adulte",
 						"name": "Grognon",
-						"price": 100 euros,
+						"price": 100 ,
 						"imgURL": "http://www.humour-felin.com/images/felin/races/small_siamois_web_1.jpg",
-						"categories": [
+						"caractéristique": [
 							"race : Siamois Oriental",
-							"robe : blanche, marron et noire"
+							"robe : blanche, marron et noire",
+							"age : 8 ans"
 					]
 				}, {
 					"id": "Vrai Sphinx",
+					"categories": "Adulte",
 					"name": "Toute Nue",
-					"price": 100 euros,
+					"price": 100 ,
 					"imgURL": "https://static.wamiz.fr/images/animaux/chats/large/sphynx.jpg",
-					"categories": [
+					"caractéristique": [
 						"race : Sphinx",
-						"robe : sans poil, couleur chaire"
+						"robe : sans poil, couleur chaire",
+						"age : 3 ans"
 					]
 				}, {
 					"id": "Vrai Sphinx",
+					"categories": "Adulte",
 					"name": "Mr a Poil",
-					"price": 100 euros,
+					"price": 100 ,
 					"imgURL": "https://s-media-cache-ak0.pinimg.com/736x/f3/af/0d/f3af0d1571d43cacf1c7ea0ba4cc5f7c.jpg",
-					"categories": [
+					"caractéristique": [
 						"race : Sphinx",
-						"robe : sans poil, couleur noire"
+						"robe : sans poil, couleur noire",
+						"age : 3 ans"
 					]
 				}, {
 					"id": "Vrai Sphinx",
+					"categories": "Adulte",
 					"name": "Golum",
-					"price": 100 euros,
+					"price": 100 ,
 					"imgURL": "http://i.ebayimg.com/00/s/NTc4WDY4NA==/z/gIYAAOSw32lY0Fah/$_35.JPG",
-					"categories": [
+					"caractéristique": [
 						"race : Sphinx",
-						"robe : sans poil, couleur chaire orangée"
+						"robe : sans poil, couleur chaire orangée",
+						"age : 6 ans"
+					]
+					}, {
+						"id": "Pepere",
+						"categories": "Vieux chats",
+						"name": "Pepere",
+						"price": 80,
+						"imgURL": "http://www.amisduchartreux.org/img_site/Photos/veterans/IMG_8552.jpg",
+						"caractéristique": [
+						  "race : chartreux",
+							"robe : grise",
+							"age : 13 ans"
+						]
+					}, {
+					 "id": "Bibendom",
+					 "categories": "Vieux chats",
+					 "name": "BouBoule",
+					 "price": 80,
+					 "imgURL": "https://wamiz.com/uploads/additional/2011-05/thumbs/standard_real-fat-cat.jpg",
+					 "caractéristique": [
+						 "race : Maine Coon",
+						 "robe : blanche et marron",
+						 "age : 16 ans"
+					 ]
+					}, {
+	 				"id": "Manga",
+					"categories": "Vieux chats",
+	 				"name": "Titoune",
+	 				"price": 80,
+	 				"imgURL": "https://s-media-cache-ak0.pinimg.com/564x/92/d0/3d/92d03d7b40036c64dd1b3df535051e66.jpg",
+	 				"caractéristique": [
+	 					"race : Exotic shorthair",
+	 					"robe : grise tachetée",
+						"age : 11 ans"
+	 				]
+				}, {
+					"id": "Vrai Sphins",
+					"categories": "Vieux chats",
+					"name": "Pirate",
+					"price": 800,
+					"imgURL": "http://www.collierdeperle.com/pony3.JPG",
+					"caractéristique": [
+					  "race : Sphinx",
+						"robe : sans poil, gris",
+						"age : 17 ans"
+					]
+				}, {
+					"id": "Gouttiere",
+					"categories": "Vieux chats",
+					"name": "Marbré",
+					"price": 80,
+					"imgURL": "",
+					"caractéristique": [
+						"race : chat-de-gouttiere",
+						"robe : Marbrée marron, noire",
+						"age : 15 ans"
+					]
+				}, {
+					"id": "Chaton",
+					"categories": "Chaton",
+					"name": "Drum & Bass",
+					"price": 200,
+					"imgURL": "http://www.biofan.com/blog/wp-content/uploads/2015/06/318-FR-Chats-et-chaton-nains-une-race-%C3%A0-part.jpg",
+					"caractéristique": [
+						"race : chatons nains",
+						"robe : blanche et marron",
+						"age : 2 mois pour les deux"
+					]
+				}, {
+					"id": "chaton",
+					"categories": "chaton",
+					"name": "Grisouille",
+					"price": 120,
+					"imgURL": "https://www.eleveurs-online.com/img/im/race/l135.png",
+					"caractéristique": [
+							"race : Chartreux",
+							"robe : grise",
+							"age : 3 mois"
+					]
+				}, {
+					"id": "chaton",
+					"categories": "chaton",
+					"name": "Pitchounette",
+					"price": 120,
+					"imgURL": "http://3.bp.blogspot.com/-ptyi-Z0Xqu8/VcBa0D8gY9I/AAAAAAAAU7g/zIe8OZEHL8Y/s1600/Photo-de-chaton-Race-siamois-trop-mimi-7.jpg",
+					"caractéristique": [
+						"race : Siamois",
+						"robe : grise et marron",
+						"age : 1 mois et demi"
+					]
+				}, {
+					"id": " Très Vieux chats",
+					"categories": "Très Vieux chats",
+					"name": "Poppy",
+					"price": 60,
+					"imgURL": "http://www.atlantico.fr/sites/atlantico.fr/files/styles/une/public/images/2014/04/atlantico.fr_grumpy_cat_chat_shanghai.jpg",
+					"caractéristique": [
+						"race : Maine coon",
+						"robe : Marron clair",
+						"age : 24 ans"
+					]
+				}, {
+					"id": "Très Vieux Chats",
+					"categories": "Très Vieux chats",
+					"name": "Malabar",
+					"price": 60,
+					"imgURL": "http://www.chats-de-france.com/photo/chats/t_chat/chats-Exotic-Shorthair-b061f41a-aa86-1564-7dc9-6ad629eb6b62.jpg",
+					"caractéristique": [
+					"race : Exotic Shorthair",
+					"robe : Grise, Noire",
+					"age : 20 ans"
 					]
 		}
 	]
