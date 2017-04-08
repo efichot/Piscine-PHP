@@ -1,124 +1,112 @@
 {
 	"products" : [
 		{
-			"id": "",
-			"name": "",
-			"brand": "",
-			"price": ,
-			"imgURL": "",
+			"id": "gros chat",
+			"name": "Halloween",
+			"price": 100 euros,
+			"imgURL": "https://static.wamiz.fr/images/animaux/chats/medium/persan-2922.jpg",
 			"categories": [
-				"",
-				""
+				"Race : Persan",
+				"robe : blanche et yeux oranges"
 			]
 		}, {
-			"id": "",
-			"name": "",
-			"brand": "",
-			"price": ,
-			"imgURL": "",
+			"id": "chatom",
+			"name": "Pato",
+			"price": 100 euros,
+			"imgURL": "https://i.skyrock.net/2797/79952797/pics/3027400928_1_3_lft4Ddav.jpg",
 			"categories": [
-				"",
-				""
+				"race : Siamois",
+				"robe : beige, marron au museau et pattes, Yeux : bleu"
 			]
 		}, {
-			"id": "",
-			"name": "",
-			"brand": "",
-			"price": ,
-			"imgURL": "",
+			"id": "Manga",
+			"name": "Snoopy",
+			"price": 100 euros,
+			"imgURL": "https://s-media-cache-ak0.pinimg.com/564x/42/1c/2e/421c2ee94f1c5ecc024bf23edfd76b5b.jpg",
 			"categories": [
-				"",
-				""
+				"race : Exotic Shorthair Snoopy",
+				"robe :blanche avec taches marron"
 			]
 		}, {
-			"id": "",
-			"name": "",
-			"brand": "",
-			"price": ,
-			"imgURL": "",
+			"id": "Imposant",
+			"name": "Praline",
+			"price": 100 euros,
+			"imgURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Birmakatze_Seal-Point.jpg/220px-Birmakatze_Seal-Point.jpg",
 			"categories": [
-				"",
-				""
+				"race : Sacré de Birmanie",
+				"robe : blanche, marron et noir, Yeux : bleu"
 			]
 		}, {
-			"id": "",
-			"name": "",
-			"brand": "",
-			"price": ,
-			"imgURL": "",
+			"id": "Poil court",
+			"name": "Marvin",
+			"price": 100 euros,
+			"imgURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Female_European_shorthair_in_cat_show_Helsinki_2005-07-31.JPG/220px-Female_European_shorthair_in_cat_show_Helsinki_2005-07-31.JPG",
 			"categories": [
-				"",
-				""
+				"race : European Shorthair",
+				"robe : tigré noir, marron beige"
 			]
 		}, {
-			"id": "",
-			"name": "",
-			"brand": "",
-			"price": ,
-			"imgURL": "",
+			"id": "US",
+			"name": "felix",
+			"price": 100 euros,
+			"imgURL": "http://cda-rentaspace.com/sitebuilder/images/catsUSA15adultspage-477x387.jpg",
 			"categories": [
-				"",
-				""
+				"race : American Shorthair",
+				"robe : tigrée noire et grise"
 			]
 		}, {
-			"id": "",
-			"name": "",
-			"brand": "",
-			"price": ,
-			"imgURL": "",
+			"id": "Lion",
+			"name": "Pas chat",
+			"price": 100 euros,
+			"imgURL": "http://www.sentiers-sauvages.fr/image/chats_elaenia.jpg",
 			"categories": [
-				"",
-				""
+				"race : Maine coon",
+				"robe ; grise, noire"
 			]
 		}, {
-			"id": "",
-			"name": "",
-			"brand": "",
-			"price": ,
-			"imgURL": "",
+			"id": "Lion",
+			"name": "Gandalf the white",
+			"price": 100 euros,
+			"imgURL": "http://coonecticat.com/mainecoon/gandalf.jpg",
 			"categories": [
-				"",
-				""
+				"race : maine coon",
+				"robe : blanche"
 			]
 		}, {
-			"id": "",
-			"name": "",
-			"brand": "",
-			"price": ,
-			"imgURL": "",
+			"id": "Le Félin",
+			"name": "Tigrou",
+			"price": 100 euros,
+			"imgURL": "https://image.jimcdn.com/app/cms/image/transf/none/path/s9afa6ac63f6b1e49/image/i7336324cf967202c/version/1406550670/image.jpg",
 			"categories": [
-				"",
-				""
+				"race : Bengal",
+				"robe : marron orangé tacheté de noir"
 			]
 		}, {
-			"id": "",
-			"name": "",
-			"brand": "",
-			"price": ,
-			"imgURL": "",
+			"id": "Goutiere",
+			"name": "Black Panther",
+			"price": 100 euros,
+			"imgURL": "https://static.wamiz.fr/images/animaux/chats/medium/goutti-re-2805.jpg",
 			"categories": [
-				"",
-				""
+				"race : Chat-De-Gouttiere",
+				"robe : noire et blanche"
 			]
 		}, {
-			"id": "",
-			"name": "",
-			"brand": "",
-			"price": ,
-			"imgURL": "",
+			"id": "Chaton",
+			"name": "Filou",
+			"price": 100 euros,
+			"imgURL": "http://petsitting.fr/wp-content/uploads/2014/05/chat-de-gouttiere.jpg",
 			"categories": [
-				"",
-				""
+				"race : Chat-De-Gouttiere",
+				"ribe : grise"
 			]
 		}, {
-			"id": "",
-			"name": "",
-			"brand": "",
-			"price": ,
-			"imgURL": "",
+			"id": "Maous Costaud",
+			"name": "Gandalf Le gris",
+			"price": 100 euros,
+			"imgURL": "http://www.lechatpacha.fr/wp-content/uploads/2016/03/british-shorthair-bleu.jpg",
 			"categories": [
-				"",
-				""
+				"race : British-Shorthair",
+				"robe : grise, yeux : jaune"
 			]
 		}
 	]
