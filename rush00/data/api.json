@@ -10,7 +10,7 @@
 				"robe : blanche et yeux oranges"
 			]
 		}, {
-			"id": "chatom",
+			"id": "Chaton",
 			"name": "Pato",
 			"price": 100 euros,
 			"imgURL": "https://i.skyrock.net/2797/79952797/pics/3027400928_1_3_lft4Ddav.jpg",
@@ -97,7 +97,7 @@
 			"imgURL": "http://petsitting.fr/wp-content/uploads/2014/05/chat-de-gouttiere.jpg",
 			"categories": [
 				"race : Chat-De-Gouttiere",
-				"ribe : grise"
+				"robe : grise"
 			]
 		}, {
 			"id": "Maous Costaud",
@@ -108,6 +108,78 @@
 				"race : British-Shorthair",
 				"robe : grise, yeux : jaune"
 			]
+			}, {
+				"id": "Maous Costaud",
+				"name": "Ice Cream",
+				"price": 100 euros,
+				"imgURL": "http://mondo.felis.free.fr/mon%20chat/british%20shorthair/british%20shorthair%20yeux%20vairon).jpg",
+				"categories": [
+					"race : British-Shorthair",
+					"robe : blanche, Yeux : albinos (un gris, un jaune)"
+				]
+			}, {
+				"id": "Chaton nain",
+				"name": "Milka",
+				"price": 100 euros,
+				"imgURL": "https://s-media-cache-ak0.pinimg.com/564x/68/95/db/6895dbcc0e53b332b033ecae05d0f9d4.jpg",
+				"categories": [
+					"race : Chaton Nain",
+					"robe : blanche et marron"
+				]
+			}, {
+				"id": "Moelleux",
+				"name": "Calimero",
+				"price": 100 euros,
+				"imgURL": "https://previews.123rf.com/images/tankist276/tankist2761107/tankist276110700068/10084730-le-moelleux-ray-gris-bel-chaton-race-scottish-pliure-sur-fond-brun-Banque-d'images.jpg",
+				"categories": [
+					"race : Scottish Pliure",
+					"robe : blanche et grise"
+				]
+			}, {
+				"id": "Sphinx",
+				"name": "Sphinxia",
+				"price": 100 euros,
+				"imgURL": "https://s-media-cache-ak0.pinimg.com/564x/52/6e/48/526e487263a8e515ef231e57b3ecc370.jpg",
+				"categories": [
+					"race : Abyssin",
+					"robe : marron orangée"
+				 ]
+				}, {
+					"id": "Siamois Oriental",
+						"name": "Grognon",
+						"price": 100 euros,
+						"imgURL": "http://www.humour-felin.com/images/felin/races/small_siamois_web_1.jpg",
+						"categories": [
+							"race : Siamois Oriental",
+							"robe : blanche, marron et noire"
+					]
+				}, {
+					"id": "Vrai Sphinx",
+					"name": "Toute Nue",
+					"price": 100 euros,
+					"imgURL": "https://static.wamiz.fr/images/animaux/chats/large/sphynx.jpg",
+					"categories": [
+						"race : Sphinx",
+						"robe : sans poil, couleur chaire"
+					]
+				}, {
+					"id": "Vrai Sphinx",
+					"name": "Mr a Poil",
+					"price": 100 euros,
+					"imgURL": "https://s-media-cache-ak0.pinimg.com/736x/f3/af/0d/f3af0d1571d43cacf1c7ea0ba4cc5f7c.jpg",
+					"categories": [
+						"race : Sphinx",
+						"robe : sans poil, couleur noire"
+					]
+				}, {
+					"id": "Vrai Sphinx",
+					"name": "Golum",
+					"price": 100 euros,
+					"imgURL": "http://i.ebayimg.com/00/s/NTc4WDY4NA==/z/gIYAAOSw32lY0Fah/$_35.JPG",
+					"categories": [
+						"race : Sphinx",
+						"robe : sans poil, couleur chaire orangée"
+					]
 		}
 	]
 }
