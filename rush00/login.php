@@ -1,21 +1,12 @@
 <?php
-	$pageTitle = "login";
+	$pageTitle = "Login";
+	include_once('auth.php');
+	session_start();
+	if ($_POST['login'] !== '' && $_POST['passwd'] !== '' && auth($_POST['login'], $_POST['passwd'])) {
+		$_SESSION['loggued_on_user'] = $_POST['login'];
+		header("Location: categories.php");
+	} else {
+		$_SESSION['loggued_on_user'] = "";
+		echo "ERROR\n";
+	}
 ?>
-
-<!DOCTYPE html>
-<html lang="fr">
-	<?php include_once('template/head.php'); ?>
-	<body>
-		<?php include_once('template/nav.php'); ?>
-			<form method="post" action="login.php">
-				<label for="login">Login</label>
-				<input id="login" type="text" name="login" value="" placeholder="Login" required>
-
-				<label for="password">Password</label>
-				<input id="password" type="password" name="password" value="" placeholder="password" required>
-
-				<button type="submit" name="button">Se connecter</button>
-			</form>
-		<?php include_once('template/footer.php'); ?>
-	</body>
-</html>
