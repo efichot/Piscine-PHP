@@ -262,7 +262,7 @@ form button:hover, form button:focus {
 	float:right;
 }
 
-#name {
+#name1 {
 	font-weight: bold;
 	color: rgb(0, 176, 12);
 }
@@ -270,4 +270,22 @@ form button:hover, form button:focus {
 #deco {
 	font-weight: bold;
 	color: rgb(236, 7, 0);
+}
+#describe {
+	width: 250px;
+	height: 80px;
+}
+#butpan {
+	width: 300px;
+	height: 50px;
+	background-color: #333;
+	text-align: center;
+	display: block;
+	margin: 20px auto;
+}
+#apan {
+	color: #fff;
+	font-weight: bold;
+	font-size: 17px;
+	padding: 20px 70px;
 }

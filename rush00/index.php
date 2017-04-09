@@ -21,7 +21,7 @@
 				<input id="password" type="password" name="passwd" value="" placeholder="Password" required>
 
 				<button type="submit" name="button">Se connecter</button>
-
+				<a href="compte.php">Mot de passe oublié, change ici!</a>
 			</form>
 		</div>
 

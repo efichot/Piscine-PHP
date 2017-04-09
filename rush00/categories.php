@@ -3,6 +3,23 @@
 	session_start();
 	include_once('get_json.php');
 
+	if ($_POST) {
+		$json = file_get_contents('data/products.json');
+		$data = json_decode($json,true);
+		if ($data) {
+			$tmp['name'] = $_POST['name'];
+			$tmp['price'] = intval($_POST['price']);
+			$tmp['brand'] = $_POST['describ'];
+			$tmp['categories'] = array_filter(explode(" ", $_POST['category']));
+			// $stri = file_get_contents($_POST['img']);
+			// $encodei = base64_encode($stri);
+			// file_putcontet=
+			$data['products'][] = $tmp;
+			$jsonret = json_encode($data);
+			file_put_contents('data/products.json', $jsonret);
+	}
+}
+
 	function get_categories_list($json) {
 		$list = [];
 		foreach ($json['products'] as $product) {

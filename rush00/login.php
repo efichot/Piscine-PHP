@@ -7,6 +7,23 @@
 		header("Location: categories.php");
 	} else {
 		$_SESSION['loggued_on_user'] = "";
-		echo "ERROR\n";
+		?>
+
+		<!DOCTYPE html>
+		<html lang="fr">
+			<?php include_once('views/head.php'); ?>
+			<body>
+				<?php include_once('views/nav.php'); ?>
+
+					<h2 style="text-align:center;"> Votre compte n'existe pas encore, enregistre toi.</h2>
+
+
+				<?php include_once('views/footer.html'); ?>
+			</body>
+		</html>
+
+
+
+		<?php
 	}
 ?>

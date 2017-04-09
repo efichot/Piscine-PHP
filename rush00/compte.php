@@ -1,42 +1,6 @@
 <?php
-	$pageTitle = "Login";
 	session_start();
-
-	if (!$_POST['oldpwd'] OR !$_POST['newpwd'] OR !$_POST['login'])
-	{
-		echo "VEUILLEZ REMPLIR TOUS LES CHAMPS\n";
-		return;
-	}
-	$database = file_get_contents("../private/user.json");
-	$old_data = json_decode($database, true);
-	$hash_oldpwd = hash("whirlpool", $_POST['oldpwd']);
-	$hash_newpwd = hash("whirlpool", $_POST['newpwd']);
-	$i = 0;
-	foreach ($old_data as $login)
-	{
-		if (($_POST['login'] == $login['login']) AND ($hash_oldpwd != $login['passwd']))
-		{
-			echo "MAUVAIS MOT DE PASSE\n";
-			return;
-		}
-		if (($_POST['login'] == $login['login']) AND ($hash_oldpwd == $login['passwd']))
-		{
-			$i = 1;
-			$login['passwd'] = $hash_newpwd;
-			$mod_data['user'] = $login;
-		}
-		else if ($_POST['login'] != $login['login'])
-			$mod_data['user'] = $login;
-	}
-	if ($i == 0)
-	{
-		echo "UTILISATEUR INCONNU\n";
-		return;
-	}
-	$new_data['user'][] = json_encode($mod_data, true);
-	file_put_contents("../private/passwd", $new_data);
-	echo "MOT DE PASSE MODIFIE\n";
-?>
+ ?>
 
 <!DOCTYPE html>
 <html lang="fr">
@@ -44,7 +8,7 @@
 	<body>
 		<?php include_once('views/nav.php'); ?>
 
-			<form method="post" action="compte.php">
+			<form method="post" action="compte-in.php">
 
 				<label for="login">Login</label>
 				<input id="login" type="text" name="login" value="" placeholder="Login" required>
@@ -57,6 +21,7 @@
 
 				<button type="submit" name="button">Modifier</button>
 
+			</form>
 
 		<?php include_once('views/footer.html'); ?>
 	</body>

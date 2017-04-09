@@ -8,7 +8,22 @@
 			{
 				if (($_POST['login'] == $v['login']) OR (!$_POST['passwd']) OR (!$_POST['login']))
 				{
-					echo "ERREUR!\nVEUILLEZ REMPLIR LE FORMULAIRE.";
+					?>
+
+					<!DOCTYPE html>
+					<html lang="fr">
+						<?php include_once('views/head.php'); ?>
+						<body>
+							<?php include_once('views/nav.php'); ?>
+
+								<h2 style="text-align:center;"> Vous avez déjà un compte.</h2>
+
+
+							<?php include_once('views/footer.html'); ?>
+						</body>
+					</html>
+
+					<?php
 					return;
 				}
 			}
