@@ -1,5 +1,6 @@
 <?php
 	$pageTitle = "Panier";
+	session_start();
 	function already_exists($panier, $name) {
 		//print_r($panier);
 		//echo count($panier);

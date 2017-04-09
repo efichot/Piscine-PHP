@@ -1,7 +1,7 @@
 <?php
 	include_once('install.php');
 	$pageTitle = "Accueil";
-
+	session_start();
  ?>
 
 <!DOCTYPE html>

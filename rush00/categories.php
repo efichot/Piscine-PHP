@@ -1,6 +1,6 @@
 <?php
 	$pageTitle = 'Products';
-
+	session_start();
 	include_once('get_json.php');
 
 	function get_categories_list($json) {

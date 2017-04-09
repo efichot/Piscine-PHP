@@ -23,5 +23,6 @@
 	}
 	$old_data[] = $tmp;
 	file_put_contents("private/user", serialize($old_data));
+	$_SESSION['loggued_on_user'] = $_POST['login'];
 	header("location: categories.php");
 ?>

@@ -7,7 +7,7 @@ body {
 	font-weight: normal;
 	font-style: normal;
 	text-decoration: none;
-	background-color: rgb(250, 157, 0);
+	background-color: rgb(252, 169, 133);
 }
 
 a {
@@ -48,10 +48,6 @@ nav .menu > li {
 	padding-bottom: 5px;
 	padding-left: 3px;
 	padding-right: 3px;
-}
-
-nav .menu > li:hover, nav .menu > li:focus {
-	border-bottom: 1px rgb(252, 159, 0) solid;
 }
 
 nav .menu > li > a {
@@ -256,4 +252,22 @@ form button:hover, form button:focus {
 .fa-trash:hover, fa-trash:focus {
 	color: #D24207;
 	cursor: pointer;
+}
+
+#liname {
+	float:right;
+}
+
+#lideco {
+	float:right;
+}
+
+#name {
+	font-weight: bold;
+	color: rgb(0, 176, 12);
+}
+
+#deco {
+	font-weight: bold;
+	color: rgb(236, 7, 0);
 }

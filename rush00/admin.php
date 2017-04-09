@@ -9,8 +9,10 @@
 				echo '<li><span>iD: </span>' . $product['id'] . '</li>';
 				echo '<li><span>Name: </span>' . $product['name'] . '</li>';
 				echo '<li><span>Brand: </span>' . $product['brand'] . '</li>';
-						foreach ($product['categories'] as $categorie) {
+						if ($product['categories']) {
+							foreach ($product['categories'] as $categorie) {
 							echo '<li>' . ucfirst($categorie) . '&nbsp;&nbsp;</li>';
+							}
 						}
 				echo '<li><span>Price: </span>' . $product['price'] . ' €</li>';
 				echo '<li><a href="?action=del?id=' . $product['id'] . '"><i class="fa fa-trash"></i></a></li> <br />';
@@ -39,7 +41,9 @@
 		foreach ($data as $k => $v) {
 			echo '<ul class="admin-product">';
 				echo '<li><span>User: </span>' . $v['login'] . '</li>';
-				echo '<button class="delete" type="submit"><a id="adel" href="admin.php?admin=user&action=del&name=' . $v['login'] . '">Supprimer</a></button>';
+				if ($v['login'] !== "root") {
+					echo '<button class="delete" type="submit"><a id="adel" href="admin.php?admin=user&action=del&name=' . $v['login'] . '">Supprimer</a></button>';
+				}
 			echo '</ul>';
 		}
 	}
@@ -61,7 +65,7 @@
 					$data = unserialize(file_get_contents('private/user'));
 					if ($data) {
 						foreach ($data as $k => &$v) {
-							if ($_GET['name'] === $v['login']) {
+							if ($_GET['name'] === $v['login'] && $_GET['name'] !== "root") {
 								unset($data[$k]);
 							}
 						}

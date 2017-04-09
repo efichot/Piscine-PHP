@@ -116,7 +116,7 @@
 			"name": "Filou",
 			"price": 120 ,
 			"imgURL": "http://petsitting.fr/wp-content/uploads/2014/05/chat-de-gouttiere.jpg",
-			"brand": [
+			"categories": [
 				"Chaton",
 				"Gris",
 				"Chat-De-Gouttiere"
@@ -251,7 +251,7 @@
 	 				"categories": [
 	 					"Vieux Chats",
 	 					"Gris",
-						"Exotic shorthair"
+						"Exotic Shorthair"
 	 				]
 				}, {
 					"id": "Vrai Sphinx",
