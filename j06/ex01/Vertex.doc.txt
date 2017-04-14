@@ -1,0 +1,14 @@
+
+<- Vertex ----------------------------------------------------------------------
+The Vertex class handle x,y,z coordinates.
+
+An instance can be constructed with an array where the three coordinates need to
+be set with numeric value:
+$instance = new Vertex(['x' => 4, 'y' => 2, 'z' => 0]);
+The homogeneous coordinates 'w' is optional, by default w = 1.0
+The 'color' is optional too, by default color = 0xFFFFFF, and correspond to an instance
+of the class Color.
+
+Attributes are private you may want to use a getter or setter.
+No method providing for this class.
+---------------------------------------------------------------------- Vertex ->
