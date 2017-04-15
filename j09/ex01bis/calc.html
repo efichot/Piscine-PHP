@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Calculatrice</title>
+		<link rel="icon"  type="image/png" href="http://icon-icons.com/icons2/272/PNG/512/Calculator_30001.png">
+		<script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+		<style>
+			body {
+				background-color: rgb(103, 71, 103);
+				font-family: arial;
+			}
+			h1 {
+				text-align: center;
+			}
+			.calc {
+				width: 500px;
+				height: 300px;
+				background-color: rgb(135, 135, 135);
+				margin: 40px auto;
+				position: relative;
+				border-radius: 10px;
+			}
+			input, select {
+				padding: 6px, 12px;
+				text-align: center;
+				border-radius: 5px;
+				margin-left: 15px;
+			}
+			input[type='text'] {
+				height: 44px;
+			}
+
+			select, input[type='submit'] {
+				height: 44px;
+			}
+		</style>
+	</head>
+	<body>
+		<div class='wrapper'>
+			<div class="calc">
+				<div class='circle'></div>
+				<h1>Calculatrice</h1>
+				<form action="" id="calc">
+					<input type='text' id='left' />
+					<select id='op'>
+						<option value='add'>+</option>
+						<option value='min'>-</option>
+						<option value='mul'>*</option>
+						<option value='div'>/</option>
+						<option value='mod'>%</option>
+					<input type='text' id='right' />
+					<input type='submit' id='submit' value='Try me!' />
+					</select>
+				</form>
+			</div>
+		</div>
+	</body>
+	<script  type='text/javascript'>
+		var calc = $('#calc');
+		var left = $('#left');
+		var op = $('#op');
+		var right = $('#right');
+
+		setInterval(function() { alert('Please, use me...') }, 30000);
+		calc.on('submit', function(e) {
+			e.preventDefault();
+			if (!(/^\d+$/.test(left.val())) || !(/^\d+$/.test(right.val()))) {
+				alert('Error :(');
+				return false;
+			}
+			var l = Number(left.val());
+			var r = Number(right.val());
+			switch (op.val()) {
+				case ('add'):
+					console.log(l + r);
+					alert(l + r);
+					break;
+				case ('min'):
+					console.log(l - r);
+					alert(l - r);
+					break;
+				case ('mul'):
+					console.log(l * r);
+					alert(l * r);
+					break;
+				case ('div'):
+					if (r == 0) {
+						console.log("It's over 9000");
+						alert("It's over 9000");
+					} else {
+						console.log(l / r);
+						alert(l / r);
+					}
+					break;
+				case ('mod'):
+					if (r == 0) {
+						console.log("It's over 9000");
+						alert("It's over 9000");
+					} else {
+						console.log(l % r);
+						alert(l % r);
+					}
+					break;
+				default:
+					alert("operation not found");
+					break;
+			}
+		});
+	</script>
+</html>
